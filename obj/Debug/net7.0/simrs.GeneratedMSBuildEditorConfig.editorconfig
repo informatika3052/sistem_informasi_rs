@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = simrs
+build_property.RootNamespace = simrs
+build_property.ProjectDir = c:\Users\renol\Documents\coba_asp\simrs\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\renol\Documents\coba_asp\simrs
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/Dokter/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdGVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/Dokter/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdGVyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/Dokter/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdGVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/Dokter/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/IGD/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSUdEXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/IGD/CreatePasienLama.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSUdEXENyZWF0ZVBhc2llbkxhbWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/IGD/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSUdEXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/IGD/PasienLama.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSUdEXFBhc2llbkxhbWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/IGD/UpdatePulang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSUdEXFVwZGF0ZVB1bGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/Kasir/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FzaXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/Kasir/Pembayaran.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FzaXJcUGVtYmF5YXJhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/Pasien/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzaWVuXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/Pasien/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzaWVuXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/Pasien/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzaWVuXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/Pasien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzaWVuXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/renol/Documents/coba_asp/simrs/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-j0wj8si2w6

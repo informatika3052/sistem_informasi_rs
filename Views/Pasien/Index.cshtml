@@ -1,0 +1,95 @@
+@model IEnumerable<simrs.Models.PasienViewModel>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>MASTER DATA PASIEN</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Master Data Pasien</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+
+                    <!-- /.card -->
+
+                    <div class="card">
+                        <div class="card-header bg-success">
+                            <h2 class="card-title">Master Data Pasien</h2>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <table id="example1" class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th> No </th>
+                                        <th> Nama </th>
+                                        <th> Nik </th>
+                                        <th> Jenis Kelamin </th>
+                                        <th> Tanggal Lahir </th>
+                                        <th> Alamat </th>
+                                        <th class="text-center"> Aksi</th>
+                                    </tr>
+                                </thead>
+                                @{
+                                    int i = 1;
+                                }
+                                <tbody> @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @i
+                                                @{
+                                                    i++;
+                                                }
+                                            </td>
+                                            <td> @Html.DisplayFor(modelItem => item.nama) </td>
+                                            <td> @Html.DisplayFor(modelItem => item.nik_pasien) </td>
+                                            <td> @Html.DisplayFor(modelItem => item.jk_pasien) </td>
+                                            <td> @item.tl_pasien?.ToString("dd-MM-yyyy") </td>
+                                            <td> @Html.DisplayFor(modelItem => item.alamat_pasien) </td>
+                                            <td class="text-center"> <a class="btn btn-success mb-3" asp-action="Edit"
+                                                asp-route-id="@item.nik_pasien">Edit Pasien</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- /.card -->
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+
+
+@* <tr>
+    <th> @Html.DisplayNameFor(model => model.nama) </th>
+    <th> @Html.DisplayNameFor(model => model.nik) </th>
+    <th> @Html.DisplayNameFor(model => model.jenis_kelamin) </th>
+    <th> @Html.DisplayNameFor(model => model.tanggal_lahir) </th>
+    <th> @Html.DisplayNameFor(model => model.alamat) </th>
+    <th class="text-center"> Aksi</th>
+    </tr> *@

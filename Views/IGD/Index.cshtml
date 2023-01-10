@@ -1,0 +1,111 @@
+@model IEnumerable<simrs.Models.IgdViewModel>
+@{
+    ViewData["Title"] = "Antrian IGD";
+}
+
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>DATA PASIEN IGD</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Data Pasien IGD</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+
+                    <div class="card">
+                        <div class="card-header bg-success">
+                            <h2 class="card-title">Data Pasien IGD</h2>
+                        </div>
+
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <table id="example1" class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th> ID Kunjungan </th>
+                                        <th> ID Pasien </th>
+                                        <th> Nama Pasien </th>
+                                        <th> Tgl Kunjungan </th>
+                                        <th> Dokter </th>
+                                        <th> Kunjungan </th>
+                                        <th> Confirm</th>
+                                    </tr>
+                                </thead>
+                                <tbody> @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td> @Html.DisplayFor(modelItem => item.id_kunjungan) </td>
+                                            <td> @Html.DisplayFor(modelItem => item.id_pasien) </td>
+                                            <td> @Html.DisplayFor(modelItem => item.nama) </td>
+                                            <td> @Html.DisplayFor(modelItem => item.tanggal_daftar) </td>
+                                            <td> @Html.DisplayFor(modelItem => item.nama_dokter) </td>
+                                            <td class="text-center">
+                                                @if (@item.status_kunjung)
+                                                {
+                                                    <a class="btn btn-danger disabled">Done</a>
+                                                }
+                                                else
+                                                {
+                                                    <a class="btn btn-info disabled">Pulang</a>
+                                                }
+                                            </td>
+                                            <td class="text-center">
+                                                @if (@item.status_kunjung)
+                                                {
+                                                    <a class="btn btn-primary disabled">
+                                                        <i class="fas fa-money-bill-wave mr-1"></i>Pulang
+                                                    </a>
+                                                }
+                                                else if (!@item.status_bayar)
+                                                {
+                                                    <button type="button" class="btn btn-primary disabled mb-3 data-toggle="
+                                                tooltip" data-placement="top"
+                                                title="Lakukan Pembayaran Dahulu">Pulang</button>
+                                                }
+                                                else
+                                                {
+                                                    <a class="btn btn-success mb-3" asp-action="UpdatePulang"
+                                                asp-route-id="@item.id_kunjungan">Pulang</a>
+                                                }
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                    <!-- /.card -->
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+
+@* <tr>
+    <th> @Html.DisplayNameFor(model => model.nama) </th>
+    <th> @Html.DisplayNameFor(model => model.nik) </th>
+    <th> @Html.DisplayNameFor(model => model.jenis_kelamin) </th>
+    <th> @Html.DisplayNameFor(model => model.tanggal_lahir) </th>
+    <th> @Html.DisplayNameFor(model => model.alamat) </th>
+    <th class="text-center"> Aksi</th>
+    </tr> *@

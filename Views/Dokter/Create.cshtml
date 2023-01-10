@@ -1,0 +1,88 @@
+@model simrs.Models.DokterViewModel
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>PENDAFTARAN DOKTER</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a asp-action="Index">Home</a></li>
+                        <li class="breadcrumb-item active"> Pendaftaran Dokter</li>
+                    </ol>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-8">
+                    <div class="card">
+                        <div class="card-header bg-success">
+                            <h3 class="card-title">Pendaftaran Dokter</h3>
+                        </div>
+                        <div class="card-body">
+                            <form asp-action="Create" asp-controller="Dokter">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="form-group">
+                                    <label asp-for="nama_dokter" class="control-label">Nama Dokter</label>
+                                    <input asp-for="nama_dokter" class="form-control" />
+                                    <span asp-validation-for="nama_dokter" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="nik" class="control-label">NIK</label>
+                                    <input asp-for="nik" class="form-control" />
+                                    <span asp-validation-for="nik" class="text-danger"></span>
+                                    @if (TempData["AlertMessage"] != null)
+                                    {
+                                        <span class="text-danger mt-2">
+                                            @TempData["AlertMessage"]
+                                        </span>
+                                    }
+
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="jenis_kelamin" class="control-label">Jenis Kelamin</label>
+                                    <select asp-for="jenis_kelamin" class="form-control">
+                                        <option value="">-- Select Jenis Kelamin --</option>
+                                        <option value="Laki-laki">Laki-laki</option>
+                                        <option value="Perempuan">Perempuan</option>
+                                    </select>
+                                    <span asp-validation-for="jenis_kelamin" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="tanggal_lahir" class="control-label">Tanggal Lahir</label>
+                                    <input asp-for="tanggal_lahir" type="date" class="form-control" />
+                                    <span asp-validation-for="tanggal_lahir" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="alamat" class="control-label">Alamat</label>
+                                    <input asp-for="alamat" class="form-control" />
+                                    <span asp-validation-for="alamat" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="spesialis" class="control-label">Spesialis</label>
+                                    <input asp-for="spesialis" class="form-control" />
+                                    <span asp-validation-for="spesialis" class="text-danger"></span>
+                                </div>
+                                <input name="status" type="hidden" value="" class="form-control" />
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-success mt-3">Simpan Data Dokter </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Button trigger modal -->
+
+            </div>
+        </div>
+    </section>
+</div>
+@section Scripts { @{await Html.RenderPartialAsync("_ValidationScriptsPartial");} }

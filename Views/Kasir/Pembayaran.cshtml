@@ -1,0 +1,68 @@
+@model simrs.Models.IgdViewModel
+@{
+    ViewData["Title"] = "Pembayaran";
+}
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>PEMBAYARAN PASIEN</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a asp-action="Index">Home</a></li>
+                        <li class="breadcrumb-item active"> Pembayaran Pasien</li>
+                    </ol>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-8">
+                    <div class="card">
+                        <div class="card-header bg-success">
+                            <h3 class="card-title">Pembayaran Pasien</h3>
+                        </div>
+                        <div class="card-body">
+                            <form asp-action="Pembayaran" asp-controller="Kasir">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="form-group">
+                                    <label asp-for="nama" class="control-label">Nama Pasien</label>
+                                    <input asp-for="nama" readonly class="form-control" />
+                                    <span asp-validation-for="nama" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="nama_dokter" class="control-label">Dokter</label>
+                                    <input asp-for="nama_dokter" readonly class="form-control" />
+                                    <span asp-validation-for="nama_dokter" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="tanggal_daftar" class="control-label">Tanggal Kunjungan</label>
+                                    <input type="date" readonly asp-for="tanggal_daftar" class="form-control" />
+                                    <span asp-validation-for="tanggal_daftar" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="tarif" class="control-label">Biaya</label>
+                                    <input asp-for="tarif" class="form-control" />
+                                    <span asp-validation-for="tarif" class="text-danger"></span>
+                                </div>
+                                <input type="hidden" asp-for="id_kunjungan" />
+                                <input type="hidden" asp-for="status_bayar" value="1" />
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-success mt-3">Bayar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Button trigger modal -->
+            </div>
+        </div>
+    </section>
+</div>
+@section Scripts { @{await Html.RenderPartialAsync("_ValidationScriptsPartial");} }
