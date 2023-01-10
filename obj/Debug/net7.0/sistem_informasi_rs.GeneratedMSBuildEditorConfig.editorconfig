@@ -9,93 +9,93 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = sistem_informasi_rs
 build_property.RootNamespace = sistem_informasi_rs
-build_property.ProjectDir = d:\MATERI_KULIAH\GITHUB\sistem_informasi_rs\
+build_property.ProjectDir = D:\MATERI_KULIAH\GITHUB\sistem_informasi_rs\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\MATERI_KULIAH\GITHUB\sistem_informasi_rs
+build_property.MSBuildProjectDirectory = D:\MATERI_KULIAH\GITHUB\sistem_informasi_rs
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Dokter/Create.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Dokter/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdGVyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Dokter/Delete.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Dokter/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdGVyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Dokter/Edit.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Dokter/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdGVyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Dokter/Index.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Dokter/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdGVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Home/Index.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Home/Privacy.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/IGD/Create.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/IGD/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSUdEXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/IGD/CreatePasienLama.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/IGD/CreatePasienLama.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSUdEXENyZWF0ZVBhc2llbkxhbWEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/IGD/Index.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/IGD/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSUdEXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/IGD/PasienLama.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/IGD/PasienLama.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSUdEXFBhc2llbkxhbWEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/IGD/UpdatePulang.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/IGD/UpdatePulang.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSUdEXFVwZGF0ZVB1bGFuZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Kasir/Index.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Kasir/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FzaXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Kasir/Pembayaran.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Kasir/Pembayaran.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2FzaXJcUGVtYmF5YXJhbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Pasien/Create.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Pasien/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzaWVuXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Pasien/Edit.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Pasien/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzaWVuXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Pasien/Index.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Pasien/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzaWVuXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Shared/Error.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/_ViewImports.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/_ViewStart.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Shared/_Layout.cshtml]
+[D:/MATERI_KULIAH/GITHUB/sistem_informasi_rs/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5a5xwvksz5
