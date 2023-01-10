@@ -1798,11 +1798,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\renol\\Documents\\coba_asp\\simrs\\simrs.csproj",
-      "projectName": "simrs",
-      "projectPath": "C:\\Users\\renol\\Documents\\coba_asp\\simrs\\simrs.csproj",
+      "projectUniqueName": "D:\\MATERI_KULIAH\\GITHUB\\sistem_informasi_rs\\sistem_informasi_rs.csproj",
+      "projectName": "sistem_informasi_rs",
+      "projectPath": "D:\\MATERI_KULIAH\\GITHUB\\sistem_informasi_rs\\sistem_informasi_rs.csproj",
       "packagesPath": "C:\\Users\\renol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\renol\\Documents\\coba_asp\\simrs\\obj\\",
+      "outputPath": "D:\\MATERI_KULIAH\\GITHUB\\sistem_informasi_rs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\renol\\AppData\\Roaming\\NuGet\\NuGet.Config"

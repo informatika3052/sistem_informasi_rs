@@ -1,4 +1,4 @@
-namespace simrs.Models;
+namespace sistem_informasi_rs.Models;
 
 public class ErrorViewModel
 {

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\sistem_informasi_rs.props" />
+</Project>

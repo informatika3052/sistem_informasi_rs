@@ -2,7 +2,7 @@
 using System.Data;
 using MySql.Data.MySqlClient;
 
-namespace simrs.Models
+namespace sistem_informasi_rs.Models
 {
     public class KasirDataAccess
     {

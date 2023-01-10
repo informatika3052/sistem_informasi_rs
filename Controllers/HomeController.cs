@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using simrs.Models;
+using sistem_informasi_rs.Models;
 
-namespace simrs.Controllers;
+namespace sistem_informasi_rs.Controllers;
 
 public class HomeController : Controller
 {

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace simrs.Models;
+namespace sistem_informasi_rs.Models;
 
 
 // Pembuatan Variabel Pasien dan Dokter

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\renol\\Documents\\coba_asp\\simrs\\simrs.csproj": {}
+    "D:\\MATERI_KULIAH\\GITHUB\\sistem_informasi_rs\\simrs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\renol\\Documents\\coba_asp\\simrs\\simrs.csproj": {
+    "D:\\MATERI_KULIAH\\GITHUB\\sistem_informasi_rs\\simrs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renol\\Documents\\coba_asp\\simrs\\simrs.csproj",
+        "projectUniqueName": "D:\\MATERI_KULIAH\\GITHUB\\sistem_informasi_rs\\simrs.csproj",
         "projectName": "simrs",
-        "projectPath": "C:\\Users\\renol\\Documents\\coba_asp\\simrs\\simrs.csproj",
+        "projectPath": "D:\\MATERI_KULIAH\\GITHUB\\sistem_informasi_rs\\simrs.csproj",
         "packagesPath": "C:\\Users\\renol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renol\\Documents\\coba_asp\\simrs\\obj\\",
+        "outputPath": "D:\\MATERI_KULIAH\\GITHUB\\sistem_informasi_rs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\renol\\AppData\\Roaming\\NuGet\\NuGet.Config"
